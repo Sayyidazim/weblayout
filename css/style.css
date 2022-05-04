@@ -1,0 +1,530 @@
+
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Light"),
+   url("../fonts/MullerLight.woff2") format("woff2")
+   url("../fonts/MullerLight.woff") format("woff");
+   font-weight: 300;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Regular"),
+   url("../fonts/MullerRegular.woff2") format("woff2")
+   url("../fonts/MullerRegular.woff") format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Medium"),
+   url("../fonts/MullerMedium.woff2") format("woff2")
+   url("../fonts/MullerMedium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+  font-family: "Muller";
+  src: local("Muller-Bold"),
+   url("../fonts/MullerBold.woff2") format("woff2")
+   url("../fonts/MullerBold.woff") format("woff");
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+}
+
+body {
+  background: #e5e5e5;
+  font-family: "Muller", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.section {
+  margin-bottom: 70px;
+}
+
+.header {
+  margin-bottom: 70px;
+  padding: 30px 0 0 0;
+}
+
+.header-logo-and-other {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-logo-nav {
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-logo-link-img {
+  display: block;
+  margin: 0;
+  margin-right: 40px;
+}
+
+.list-iteam-log_in {
+  margin-left: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #cc9933;
+  padding-left: 30px;
+  background-image: url("../img/log-in.svg");
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+
+.header-tell-link {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #666666;
+}
+
+.header-list-nav {
+  list-style: none;
+  margin: 0;
+}
+
+.list-nav-iteam {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.list-nav-iteam:last-child {
+  margin: 0;
+}
+
+.nav-iteam-link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #666666;
+}
+
+.div-nav {
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  border-radius: 15px;
+}
+
+.sapn {
+  width: 1px;
+  height: 50px;
+  background: #e1e1e1;
+  margin: 10px 0;
+}
+
+.btn-nav {
+  margin-right: 45px;
+}
+
+.btn {
+  align-items: flex-start;
+  padding: 13px 20px;
+  border: 1px solid #cc9933;
+  color: #cc9933;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.section-title {
+  margin: 0;
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.title-offers {
+  margin-bottom: 20px;
+}
+
+.spacial_offers-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-b-c-1 {
+  background-image: url("../img/Rectangle\ 15.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 573px;
+  height: 258px;
+  margin-bottom: 23px;
+}
+
+.img-b-c-2 {
+  background-image: url("../img/Rectangle\ 14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 573px;
+  height: 258px;
+}
+
+.img-b-c-3 {
+  background-image: url("../img/33\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 573px;
+  height: 540px;
+}
+
+.offers-list-iteam-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.title-3 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 60px;
+
+  color: #ffffff;
+}
+
+.list-iteam-span {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 47px;
+  opacity: 0.8;
+}
+
+.span-3 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.offers-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding-right: 15px;
+  color: #ffcc66;
+  text-decoration: none;
+  background-image: url("../img/offers.svg.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.article {
+  width: 300px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+
+.offers-list-iteam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.offers-list-iteam {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.about_us-desc {
+  margin: 0;
+  width: 888px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.about_us-descr {
+  width: 402px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.title-about-us {
+  margin-bottom: 11px;
+}
+
+.about_us-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about_us-list-iteam {
+  width: 573px;
+  height: 330px;
+  margin-right: 23px;
+  margin-bottom: 23px;
+}
+
+.list-iteam-title {
+  margin: 0;
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 200%;
+  color: #cc9933;
+}
+
+.about_us-link {
+  padding-right: 15px;
+  color: inherit;
+  text-decoration: none;
+  background-image: url("../img/offers.svg.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.services-title {
+  margin-bottom: 20px;
+}
+
+.img-about_us1 {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: url("../img/10.png");
+  background-repeat: no-repeat;
+}
+
+.img-about_us2 {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: url("../img/15.png");
+  background-repeat: no-repeat;
+  margin-right: 0;
+}
+.img-about_us3 {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: url("../img/12.png");
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+}
+.img-about_us4 {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: url("../img/carlo-d-agnolo-aFxSh_l4fbY-unsplash.png");
+  background-repeat: no-repeat;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.about_us-list-iteam {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.list-iteam-title,
+.about_us-descr {
+  margin-left: 45px;
+}
+
+.advantages-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages-list-iteam {
+  margin: 0;
+  padding: 0;
+  width: 275px;
+  height: 275px;
+  margin-bottom: 23px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.advantages-list-iteam:nth-child(n + 5) {
+  margin-bottom: 0;
+}
+
+.adventages-title {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.advantages-descr {
+  margin: 0;
+  padding-top: 71px;
+  width: 188px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.accommadation-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.svg_1 {
+  background-image: url("../img/bathtub.svg");
+  background-repeat: no-repeat;
+}
+
+.svg_2 {
+  background-image: url("../img/hanger.svg");
+  background-repeat: no-repeat;
+}
+
+.svg_3 {
+  background-image: url("../img/heating.svg");
+  background-repeat: no-repeat;
+}
+.svg_4 {
+  background-image: url("../img/hotel-key.svg");
+  background-repeat: no-repeat;
+}
+.svg_5 {
+  background-image: url("../img/parking.svg");
+  background-repeat: no-repeat;
+}
+.svg_6 {
+  background-image: url("../img/reception.svg");
+  background-repeat: no-repeat;
+}
+.svg_7 {
+  background-image: url("../img/security-box.svg");
+  background-repeat: no-repeat;
+}
+.svg_8 {
+  background-image: url("../img/swimming-pool.svg");
+  background-repeat: no-repeat;
+}
+
+.accommadation-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.accommadation-list-iteam {
+  position: relative;
+  width: 374px;
+  height: 440px;
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 23px;
+}
+
+.accommadation-title {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.articles {
+  margin-left: 45px;
+}
+
+.accommadation-span {
+  display: inline-block;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.accommadation-sapn-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.stars {
+  position: absolute;
+  top: 260px;
+  right: 75px;
+}
+
+.accommadation-list-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #000000;
+}
+
+.accommadation-list-descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.link-list-accommadation {
+  position: absolute;
+  bottom: 27px;
+  left: 64px;
+  padding-right: 15px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.link-list-accommadation {
+  background-image: url("../img/Rectangle\ 2.svg");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
